@@ -28,7 +28,7 @@ export const Keys = () => {
             (
                 <div className='backgrnd-cls' key={item.id}>
                 <h1>{item.name}</h1>
-                <p>Brand : {item.brand}</p>
+                <p>Brand: {item.brand}</p>
                 <p>Quantity : {item.qty}</p>
                 <button type='button' onClick={() =>IncrementQty(item.id)}>+</button>
                 <button type='button' onClick={() =>DecrementQty(item.id)}>-</button>
